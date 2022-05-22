@@ -30,6 +30,6 @@ public class Solution10951 {
             int b = Integer.parseInt(st.nextToken());
             sb.append(a+b).append("\n");
         }
-        System.out.print(sb);
+        System.out.println(sb);
     }
 }

@@ -13,6 +13,12 @@ public class Solution1260 {
     static StringBuilder sb;
 
     public static void main(String[] args) throws IOException{
+//4 5 1
+//1 2
+//1 3
+//1 4
+//2 4
+//3 4
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 

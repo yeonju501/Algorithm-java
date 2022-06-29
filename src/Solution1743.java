@@ -4,15 +4,11 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Solution1743 {
-    static int N;
-    static int M;
-    static int K;
-    static int cnt;
+    static int N, M, K, cnt, max;
     static int[][] arr;
     static boolean[][] visited;
     static int[] dx = {0, 0, 1, -1};
     static int[] dy = {1, -1, 0, 0};
-    static int max;
 
     public static void main(String[] args) throws IOException {
 //3 4 5

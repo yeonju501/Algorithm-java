@@ -7,8 +7,7 @@ import java.util.StringTokenizer;
 
 public class Solution16234 {
 
-    static int N, L, R, cnt, max;
-    static int min = 100;
+    static int N, L, R, cnt;
     static int[][] arr;
     static boolean[][] visited;
     static int[] dx = {0, 0, -1, 1};

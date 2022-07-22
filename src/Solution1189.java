@@ -25,12 +25,13 @@ public class Solution1189 {
         for (int i = 0; i < R; i++) {
             map[i] = sc.nextLine().toCharArray();
         }
-        dfs(R - 1, 0, 0);
+        visited[R-1][0] = true;
+        dfs(R - 1, 0, 1);
         System.out.println(cnt);
     }
 
     static void dfs(int x, int y, int depth) {
-        if (depth == K-1){
+        if (depth == K){
             if(x == 0 && y == C - 1) {
                 cnt++;
             }
@@ -39,10 +40,10 @@ public class Solution1189 {
         for (int i = 0; i < 4; i++) {
             int nx = x + dx[i];
             int ny = y + dy[i];
-            if (nx >= 0 && nx < R && ny >= 0 && ny < C && map[nx][ny] != 'T') {
-                map[x][y] = 'T';
+            if (nx >= 0 && nx < R && ny >= 0 && ny < C && map[nx][ny] != 'T' && !visited[nx][ny]) {
+                visited[nx][ny] = true;
                 dfs(nx, ny, depth + 1);
-                map[x][y] = '.';
+                visited[nx][ny] = false;
             }
         }
     }

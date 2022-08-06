@@ -30,7 +30,7 @@ public class Solution1106 {
             for(Ad ad : ads) {
                 int per = ad.person;
                 int pri = ad.price;
-                // dp[i]
+                // dp[i] == i명 늘리는데 드는 비용
                 if(i - per >= 0 && temp > dp[i-per] + pri) {
                     temp = dp[i-per] + pri;
                 }

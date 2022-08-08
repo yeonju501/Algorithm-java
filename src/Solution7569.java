@@ -9,11 +9,10 @@ import java.util.StringTokenizer;
 public class Solution7569 {
     static int M, N, H; // 가로, 세로, 높이
     static int[][][] map;
-    static int[][][] visited;
     static int[] dx = {0, 0, 1, -1, 0, 0};
     static int[] dy = {1, -1, 0, 0, 0, 0};
     static int[] dz = {0, 0, 0, 0, 1, -1};
-    static Queue<int[]> q = new LinkedList<>();
+    static Queue<Tomato> q = new LinkedList<>();
     public static void main(String[] args) throws IOException {
 //5 3 1
 //0 -1 0 0 0
@@ -25,27 +24,18 @@ public class Solution7569 {
         M = Integer.parseInt(st.nextToken());
         H = Integer.parseInt(st.nextToken());
         map = new int[H][M][N];
-        visited = new int[H][M][N];
 
-        boolean all_ripe = false;
+        boolean all_ripe = true;
         for(int i = 0; i < H; i++) {
             for(int j = 0; j < M; j++){
                 st = new StringTokenizer(br.readLine());
                 for(int k = 0; k < N; k++) {
                     map[i][j][k] = Integer.parseInt(st.nextToken());
-                    visited[i][j][k] = Integer.MAX_VALUE;
                     if(map[i][j][k] == 0) {
-                        all_ripe = true;
+                        all_ripe = false;
                     }
-                }
-            }
-        }
-
-        for(int i = 0; i < H; i++) {
-            for(int j = 0; j < M; j++) {
-                for(int k = 0; k < N; k++) {
                     if(map[i][j][k] == 1) {
-                        q.add(new int[] {i, j, k, 0});
+                        q.add(new Tomato(i, j, k));
                     }
                 }
             }
@@ -54,47 +44,37 @@ public class Solution7569 {
         bfs();
         int max = check();
 
-        if(!all_ripe) {
+        if(all_ripe) {
             System.out.println(0);
         } else {
-            System.out.println(max);
+            System.out.println(max-1);
         }
     }
 
     static int check() {
-        boolean flag = false;
-        int max = Integer.MIN_VALUE;
+        int max = 0;
         for(int i = 0; i < H; i++) {
             for(int j = 0; j < M; j++) {
                 for(int k = 0; k < N; k++) {
-                    if(visited[i][j][k] != Integer.MAX_VALUE) {
-                        max = Math.max(max, visited[i][j][k]);
-                    }
+                    max = Math.max(max, map[i][j][k]);
                     if(map[i][j][k] == 0){
-                        flag = true;
+                        return 0;
                     }
                 }
             }
         }
-        if(flag) {
-           return -1;
-        } else {
-            return max;
-        }
+        return max;
     }
 
     static void bfs() {
         while (!q.isEmpty()) {
-            int[] zxy = q.poll();
-            int z = zxy[0]; int x = zxy[1]; int y = zxy[2]; int pos = zxy[3];
+            Tomato to = q.poll();
             for(int i = 0; i < 6; i++) {
-                int nx = x + dx[i]; int ny = y + dy[i]; int nz = z + dz[i];
+                int nx = to.x + dx[i]; int ny = to.y + dy[i]; int nz = to.z + dz[i];
                 if(isWall(nz, nx, ny)) continue;
                 if(map[nz][nx][ny] != 0) continue;
-                if(visited[nz][nx][ny] < pos + 1) continue;
-                visited[nz][nx][ny] = pos + 1;
-                map[nz][nx][ny] = 1;
-                q.add(new int[] {nz, nx, ny, pos + 1});
+                map[nz][nx][ny] = map[to.z][to.x][to.y] + 1;
+                q.add(new Tomato(nz, nx, ny));
             }
         }
 
@@ -105,6 +85,15 @@ public class Solution7569 {
             return true;
         }
         return false;
+    }
+
+    static class Tomato {
+        int x, y, z;
+        Tomato(int z, int x, int y) {
+            this.z = z;
+            this.x = x;
+            this.y = y;
+        }
     }
 
 }

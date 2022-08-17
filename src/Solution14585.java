@@ -23,7 +23,6 @@ public class Solution14585 {
             int y = Integer.parseInt(st.nextToken());
             board[x+1][y+1] = 1;
         }
-        // 오른쪽 아래쪽
 
         int max = 0;
         for(int i = 1; i < 302; i++) {

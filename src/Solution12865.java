@@ -27,13 +27,13 @@ public class Solution12865 {
             items[i+1][1] = v;
         }
 
-        for(int i = 1; i <= n; i++) {
+        for(int i = 1; i <= n+1; i++) {
             int w = items[i][0];
             int v = items[i][1];
-            for(int j = 1; j <= k; j++) {
+            for(int j = 1; j <= k+1; j++) {
                 dp[i][j] = dp[i-1][j];
                 if(w <= j) {
-                    dp[i][j] = Math.max(dp[i-1][j], v + dp[i-1][j - w]);
+                    dp[i][j] = Math.max(dp[i-1][j], dp[i-1][j-w] + v);
                 }
             }
         }

@@ -38,18 +38,22 @@ public class Solution20438 {
             }
         }
 
+
+        int[] cntArr = new int[n+3];
+        int cnt = 0;
+        for(int i = 3; i < ns.length; i++) {
+            if(ns[i] <= 0) {
+                cnt++;
+            }
+            cntArr[i] = cnt;
+        }
+
         for(int i = 0; i < m; i++) {
             st = new StringTokenizer(br.readLine());
             int s = Integer.parseInt(st.nextToken());
             int e = Integer.parseInt(st.nextToken());
 
-            int cnt = 0;
-            for(int j = s; j <= e; j++) {
-                if(ns[j] <= 0){
-                    cnt++;
-                }
-            }
-            sb.append(cnt + "\n");
+            sb.append(cntArr[e] - cntArr[s-1] + "\n");
         }
         System.out.println(sb);
     }

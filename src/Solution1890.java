@@ -30,7 +30,6 @@ public class Solution1890 {
                     }
                     if(isValid(j+map[i][j])) {
                         dp[i][j+map[i][j]] += dp[i][j];
-
                     }
                 }
             }

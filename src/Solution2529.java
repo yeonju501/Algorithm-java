@@ -13,9 +13,9 @@ public class Solution2529 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         k = Integer.parseInt(br.readLine());
+        StringTokenizer st = new StringTokenizer(br.readLine());
         signs = new String[k];
         visited = new boolean[10];
-        StringTokenizer st = new StringTokenizer(br.readLine());
         for(int i = 0; i < k; i++) {
             signs[i] = st.nextToken();
         }
@@ -33,21 +33,20 @@ public class Solution2529 {
         }
         for(int i = 0; i < 10; i++) {
             if(visited[i]) continue;
-            if(depth == 0 || check(Character.getNumericValue(num.charAt(depth-1)), i, signs[depth-1])) {
+            if(depth == 0 || check(Character.getNumericValue(num.charAt(depth-1)), i, signs[depth-1])){
                 visited[i] = true;
-                dfs(num+i, depth+1);
+                dfs(num + i, depth+1);
                 visited[i] = false;
             }
         }
     }
 
     static boolean check(int a, int b, String s) {
-        if(s.equals(">")) {
-            if(a < b) return false;
-        } else if(s.equals("<")) {
+        if(s.equals("<")) {
             if(a > b) return false;
+        } else if (s.equals(">")) {
+            if(a < b) return false;
         }
         return true;
     }
-
 }

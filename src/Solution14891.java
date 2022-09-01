@@ -54,7 +54,7 @@ public class Solution14891 {
 
     static void rightSide(int idx, int dir) {
         if(idx > 3) return;
-        if(wheels.get(idx).get(6).equals(wheels.get(idx-1).get(2))) return;
+        if (wheels.get(idx).get(6).equals(wheels.get(idx-1).get(2))) return;
         rightSide(idx+1, -dir);
         rotation(idx, dir);
     }

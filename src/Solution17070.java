@@ -1,11 +1,11 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
 public class Solution17070 {
     static int n;
-    static int[][] map, directions = {{0, 1}, {0, 1, 2}, {1, 2}};
+    // 0 가로 1 대각선 2 세로
+    static int[][] map, dir = {{0, 1}, {1, 2}, {0, 1, 2}};
     static int[][] dxy = {{0, 1}, {1, 1}, {1, 0}};
     static int[][][] dp;
 
@@ -14,13 +14,6 @@ public class Solution17070 {
         n = Integer.parseInt(br.readLine());
         map = new int[n][n];
         dp = new int[n][n][3];
-        StringTokenizer st;
-        for(int i = 0; i < n; i++) {
-            st = new StringTokenizer(br.readLine());
-            for(int j = 0; j < n; j++) {
-                map[i][j] = Integer.parseInt(st.nextToken());
-            }
-        }
 
         dp[0][1][0] = 1;
         for(int i = 0; i < n; i++) {
@@ -41,13 +34,12 @@ public class Solution17070 {
     }
 
     static void movePipe(int x, int y, int d) {
-        for(int i : directions[d]) {
+        for(int i : dir[d]) {
             int nx = x + dxy[i][0];
             int ny = y + dxy[i][1];
-
             if(nx < n && ny < n && map[nx][ny] == 0) {
                 if(i == 1) {
-                    if(map[x+1][y] == 0 && map[x][y+1] == 0) {
+                    if (map[x + 1][y] == 0 && map[x][y + 1] == 0) {
                         dp[nx][ny][i] += dp[x][y][d];
                     }
                 } else {
@@ -56,5 +48,4 @@ public class Solution17070 {
             }
         }
     }
-
 }

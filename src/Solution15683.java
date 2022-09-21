@@ -70,6 +70,7 @@ public class Solution15683 {
         System.out.println(min);
     }
 
+    // 모든 cctv의 인덱스를 정하는 메소드
     static void dfs(int depth) {
         if(depth == cctvNum) {
             bfs();

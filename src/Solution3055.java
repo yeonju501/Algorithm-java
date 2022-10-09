@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 public class Solution3055 {
 
-    static int r, c, ans, x, y;
+    static int r, c, x, y;
     static char[][] map;
     static int[] dx = {0, 0, 1, -1};
     static int[] dy = {1, -1, 0, 0};
@@ -64,10 +64,9 @@ public class Solution3055 {
 
     static void check() {
         int sec = 0;
-        while(visited[x][y] == 0) {
+        while(visited[x][y] == 0 || !bq.isEmpty()) {
             bfs(sec);
             bfs2(sec);
-            if(bq.size()== 0) break;
             sec++;
         }
     }

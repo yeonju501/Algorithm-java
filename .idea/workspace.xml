@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7798ef63-cde7-4668-ae20-be41dc440db4" name="Changes" comment="solve 2636 (bfs)">
+      <change beforePath="$PROJECT_DIR$/src/Question10773.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Question11159.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Question11646.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Question2025.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Question2046.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Question2525.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1000.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10026.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1012.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1038.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1065.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10773.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10799.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10799_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10808.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10809.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10815.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10816.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10818.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10819.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10820.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10824.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10828.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10844.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10845.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10866.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10950.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10951.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10952.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10953.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10974.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10991.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution10992.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution11021.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution11022.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution11052.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution11057.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1106.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution11060.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1107.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1138.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution11504.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1158.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution11655.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution11656.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution11718.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution11719.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution11720.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution11721.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution11724.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution11726.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution11727.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1182.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1189.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1260.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution12865.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution12904.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution12933.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1316.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1406.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution14500.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution14501.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution14502.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution14567.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution14585.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution14627.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1463.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1475.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1476.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution14888.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution14889.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution14891.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution15649.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution15650.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution15651.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution15652.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution15661.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution15683.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution15683_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution15683_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution15685.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution15686.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution16234.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution16508.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1654.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1697.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution17070.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution17281.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution17390.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1743.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution17471.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1753.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1759.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution17836.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution18352.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1890.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1912.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1920.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1924.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1946.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1977.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1986.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution1987.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2023.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution20438.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2110.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution21278.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2178.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2193.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2240.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2257.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2438.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2439.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2440.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2441.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2442.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution24444.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution24445.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2445.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2446.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution24479.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution24480.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2468.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution24891.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2522.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2529.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2557.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2558.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2589.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2594.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2606.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2636.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2667.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2668.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2739.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2741.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2742.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2743.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution2805.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution3055.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution3190.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution4673.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution4920.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution4963.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution7562.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution7569.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution7576.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution8393.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution9012.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution9095.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution9329.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution9465.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolutionBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolutionCountry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolutionGlass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolutionMatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution_element.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution_emoticon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution_menu_renewal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution_new_id.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution_terms.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ap01OELNiJkc5c8iubuRhRhBfs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ju/Algorithm-java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.23127466&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.jsOptions&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Solution18115">
+    <configuration name="Solution14225" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Solution14225" />
+      <module name="Algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution17471" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution17471" />
+      <module name="Algorithm-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution18115" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Solution18115" />
+      <module name="Algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution18405" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Solution18405" />
+      <module name="Algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution2636" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution2636" />
+      <module name="Algorithm-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution18115" />
+        <item itemvalue="Application.Solution18405" />
+        <item itemvalue="Application.Solution14225" />
+        <item itemvalue="Application.Solution2636" />
+        <item itemvalue="Application.Solution17471" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7798ef63-cde7-4668-ae20-be41dc440db4" name="Changes" comment="" />
+      <created>1655691006229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655691006229</updated>
+      <workItem from="1655691009979" duration="2355000" />
+      <workItem from="1655693387511" duration="187000" />
+      <workItem from="1655693586500" duration="568000" />
+      <workItem from="1655694169391" duration="31000" />
+      <workItem from="1655694209633" duration="6634000" />
+      <workItem from="1655712095835" duration="502000" />
+      <workItem from="1655809579802" duration="3950000" />
+      <workItem from="1655855802792" duration="8836000" />
+      <workItem from="1655877818438" duration="450000" />
+      <workItem from="1655942682947" duration="11706000" />
+      <workItem from="1655989935859" duration="14000" />
+      <workItem from="1656043977837" duration="2135000" />
+      <workItem from="1656140272477" duration="3641000" />
+      <workItem from="1656245403646" duration="4927000" />
+      <workItem from="1656268328641" duration="3733000" />
+      <workItem from="1656329177795" duration="3819000" />
+      <workItem from="1656348928815" duration="4321000" />
+      <workItem from="1656415349413" duration="11071000" />
+      <workItem from="1656477766037" duration="8759000" />
+      <workItem from="1656585847631" duration="1247000" />
+      <workItem from="1656659511643" duration="17468000" />
+      <workItem from="1656752185126" duration="4785000" />
+      <workItem from="1656828681203" duration="6317000" />
+      <workItem from="1656901938797" duration="15819000" />
+      <workItem from="1657021433177" duration="14424000" />
+      <workItem from="1657111586589" duration="11351000" />
+      <workItem from="1657206744125" duration="7907000" />
+      <workItem from="1657246191842" duration="10410000" />
+      <workItem from="1657394249268" duration="1370000" />
+      <workItem from="1657529130819" duration="16437000" />
+      <workItem from="1657570555462" duration="690000" />
+      <workItem from="1657625170426" duration="9297000" />
+      <workItem from="1657651690849" duration="3324000" />
+      <workItem from="1657658568792" duration="1708000" />
+      <workItem from="1657727476520" duration="5792000" />
+      <workItem from="1657772646500" duration="9112000" />
+      <workItem from="1658229765468" duration="11096000" />
+      <workItem from="1658305824001" duration="1294000" />
+      <workItem from="1658416625186" duration="166000" />
+      <workItem from="1658417034267" duration="1527000" />
+      <workItem from="1658502314505" duration="1398000" />
+      <workItem from="1658517632496" duration="11976000" />
+      <workItem from="1658580849442" duration="1949000" />
+      <workItem from="1658715727409" duration="5817000" />
+      <workItem from="1658778312742" duration="10619000" />
+      <workItem from="1658897508572" duration="3634000" />
+      <workItem from="1658967275447" duration="6099000" />
+      <workItem from="1659331852319" duration="5319000" />
+      <workItem from="1659401934045" duration="91000" />
+      <workItem from="1659441116237" duration="7496000" />
+      <workItem from="1659485168878" duration="17068000" />
+      <workItem from="1659573547361" duration="2665000" />
+      <workItem from="1659655514213" duration="2272000" />
+      <workItem from="1659753273154" duration="12555000" />
+      <workItem from="1659844561901" duration="601000" />
+      <workItem from="1659921898921" duration="13873000" />
+      <workItem from="1660021164036" duration="13220000" />
+      <workItem from="1660080104923" duration="1202000" />
+      <workItem from="1660202170265" duration="12238000" />
+      <workItem from="1660469062821" duration="594000" />
+      <workItem from="1660482544272" duration="1963000" />
+      <workItem from="1660501685665" duration="685000" />
+      <workItem from="1660536926276" duration="10194000" />
+      <workItem from="1660626721029" duration="10332000" />
+      <workItem from="1660655169578" duration="1217000" />
+      <workItem from="1660697711225" duration="6926000" />
+      <workItem from="1660790840552" duration="14241000" />
+      <workItem from="1660968348104" duration="3214000" />
+      <workItem from="1661176665090" duration="2228000" />
+      <workItem from="1661252885212" duration="11500000" />
+      <workItem from="1661344114299" duration="3990000" />
+      <workItem from="1661480764428" duration="13383000" />
+      <workItem from="1661839134798" duration="200000" />
+      <workItem from="1662011596112" duration="6773000" />
+      <workItem from="1662099816481" duration="4326000" />
+      <workItem from="1662270897343" duration="4963000" />
+      <workItem from="1662362438561" duration="11898000" />
+      <workItem from="1663050412989" duration="1649000" />
+      <workItem from="1663060106658" duration="2389000" />
+      <workItem from="1663217935576" duration="597000" />
+      <workItem from="1663225044398" duration="9881000" />
+      <workItem from="1663289316253" duration="474000" />
+      <workItem from="1663323138776" duration="23000" />
+      <workItem from="1663413876768" duration="5379000" />
+      <workItem from="1663488563800" duration="12000" />
+      <workItem from="1663500053501" duration="4708000" />
+      <workItem from="1663553028492" duration="12443000" />
+      <workItem from="1663652341258" duration="1179000" />
+      <workItem from="1663669667183" duration="5186000" />
+      <workItem from="1663683488862" duration="1605000" />
+      <workItem from="1663721655300" duration="9158000" />
+      <workItem from="1663737264920" duration="9153000" />
+      <workItem from="1663849137332" duration="8942000" />
+      <workItem from="1663914226803" duration="2294000" />
+      <workItem from="1663981776776" duration="23411000" />
+      <workItem from="1664027661037" duration="804000" />
+      <workItem from="1664204713758" duration="712000" />
+      <workItem from="1664380821374" duration="111000" />
+      <workItem from="1664406736187" duration="4000" />
+      <workItem from="1664449711883" duration="6739000" />
+      <workItem from="1664586735340" duration="12513000" />
+      <workItem from="1664710979264" duration="7599000" />
+      <workItem from="1664861481272" duration="4164000" />
+      <workItem from="1664890635304" duration="7441000" />
+      <workItem from="1664964489227" duration="8619000" />
+      <workItem from="1665040348777" duration="4385000" />
+      <workItem from="1665246665327" duration="394000" />
+      <workItem from="1665249810752" duration="196000" />
+      <workItem from="1665305486098" duration="6620000" />
+      <workItem from="1665381121369" duration="1371000" />
+      <workItem from="1665464690337" duration="11576000" />
+      <workItem from="1665824070981" duration="1921000" />
+      <workItem from="1666069442285" duration="9651000" />
+    </task>
+    <task id="LOCAL-00060" summary="solved 1138(implementation)">
+      <created>1658967951402</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1658967951402</updated>
+    </task>
+    <task id="LOCAL-00061" summary="solved 2589(bfs)">
+      <created>1658969418987</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1658969418987</updated>
+    </task>
+    <task id="LOCAL-00062" summary="solved 2023 (backtracking)">
+      <created>1658974850805</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1658974850805</updated>
+    </task>
+    <task id="LOCAL-00063" summary="solved 1920 (binarysearch)">
+      <created>1659347699690</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1659347699690</updated>
+    </task>
+    <task id="LOCAL-00064" summary="solved 16508 (BruteForce)">
+      <created>1659491004276</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1659491004276</updated>
+    </task>
+    <task id="LOCAL-00065" summary="solved 16508 (BruteForce)">
+      <created>1659501121435</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1659501121435</updated>
+    </task>
+    <task id="LOCAL-00066" summary="solved 1106 (DP)">
+      <created>1659519270653</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1659519270653</updated>
+    </task>
+    <task id="LOCAL-00067" summary="solved 11052 (DP)">
+      <created>1659656924000</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1659656924015</updated>
+    </task>
+    <task id="LOCAL-00068" summary="solved 7569 (BFS)">
+      <created>1659761486101</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1659761486101</updated>
+    </task>
+    <task id="LOCAL-00069" summary="solved 1977 (Brute-force)">
+      <created>1659938481984</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1659938481985</updated>
+    </task>
+    <task id="LOCAL-00070" summary="solved 10974 (Brute-force)">
+      <created>1659959455323</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1659959455323</updated>
+    </task>
+    <task id="LOCAL-00071" summary="solved 11060 (DP)">
+      <created>1660023467130</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1660023467130</updated>
+    </task>
+    <task id="LOCAL-00072" summary="solved 12904 (Greedy)">
+      <created>1660053040415</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1660053040415</updated>
+    </task>
+    <task id="LOCAL-00073" summary="solved 15683 (implementation)">
+      <created>1660231182112</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1660231182113</updated>
+    </task>
+    <task id="LOCAL-00074" summary="solved 3190(implementation)">
+      <created>1660555345251</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1660555345252</updated>
+    </task>
+    <task id="LOCAL-00075" summary="solved 20438(implementation)">
+      <created>1660659238282</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1660659238282</updated>
+    </task>
+    <task id="LOCAL-00076" summary="solved 14585(DP)">
+      <created>1660717686717</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1660717686718</updated>
+    </task>
+    <task id="LOCAL-00077" summary="solved 14585 (DP)">
+      <created>1660718079500</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1660718079500</updated>
+    </task>
+    <task id="LOCAL-00078" summary="solved 12865 (DP)">
+      <created>1660797506606</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1660797506607</updated>
+    </task>
+    <task id="LOCAL-00079" summary="solved 4963 (bfs)">
+      <created>1660805811408</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1660805811409</updated>
+    </task>
+    <task id="LOCAL-00080" summary="solved 1697 (bfs)">
+      <created>1660811981086</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1660811981086</updated>
+    </task>
+    <task id="LOCAL-00081" summary="solved 1065 (brute-force)">
+      <created>1660969937891</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1660969937891</updated>
+    </task>
+    <task id="LOCAL-00082" summary="solved 1065 (dfs)">
+      <created>1661178305785</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1661178305785</updated>
+    </task>
+    <task id="LOCAL-00083" summary="solved 1890 (dp)">
+      <created>1661257273643</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1661257273644</updated>
+    </task>
+    <task id="LOCAL-00084" summary="solve 2529 (brute-force)">
+      <created>1661264876948</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1661264876948</updated>
+    </task>
+    <task id="LOCAL-00085" summary="solve 14891 (implementation)">
+      <created>1661487378207</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1661487378207</updated>
+    </task>
+    <task id="LOCAL-00086" summary="solved 15661 (brute-force)">
+      <created>1662014342984</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1662014342985</updated>
+    </task>
+    <task id="LOCAL-00087" summary="solved 14567 (dp)">
+      <created>1662028157858</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1662028157858</updated>
+    </task>
+    <task id="LOCAL-00088" summary="solved 17070 (dp)">
+      <created>1662286385864</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1662286385865</updated>
+    </task>
+    <task id="LOCAL-00089" summary="solved 7562 (bfs)">
+      <created>1662366864075</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1662366864075</updated>
+    </task>
+    <task id="LOCAL-00090" summary="solved 24891 (brute-force)">
+      <created>1663419129056</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1663419129056</updated>
+    </task>
+    <task id="LOCAL-00091" summary="solved 17281 (brute-force)">
+      <created>1663669718584</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1663669718584</updated>
+    </task>
+    <task id="LOCAL-00092" summary="solved 15683_2 (brute-force)">
+      <created>1663737316649</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1663737316649</updated>
+    </task>
+    <task id="LOCAL-00093" summary="solved new_id (implementation)">
+      <created>1663768615022</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1663768615022</updated>
+    </task>
+    <task id="LOCAL-00094" summary="solved menu_renewal (brute-force)">
+      <created>1664027739808</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1664027739809</updated>
+    </task>
+    <task id="LOCAL-00095" summary="solved element (implementation)">
+      <created>1664204760990</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1664204760990</updated>
+    </task>
+    <task id="LOCAL-00096" summary="solved terms (implementation)">
+      <created>1664204820313</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1664204820313</updated>
+    </task>
+    <task id="LOCAL-00097" summary="solved glass (implementation)">
+      <created>1664599825224</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1664599825224</updated>
+    </task>
+    <task id="LOCAL-00098" summary="solved glass (implementation)">
+      <created>1664599828547</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1664599828548</updated>
+    </task>
+    <task id="LOCAL-00099" summary="solved match (brute-force)">
+      <created>1664608607618</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1664608607618</updated>
+    </task>
+    <task id="LOCAL-00100" summary="solved match (brute-force)">
+      <created>1664608615568</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1664608615568</updated>
+    </task>
+    <task id="LOCAL-00101" summary="solved 21728 (floyd-warshall)">
+      <created>1664713475971</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1664713475972</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Dijkstra Algorithm">
+      <created>1664720343498</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1664720343498</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Floyd-warshall Algorithm">
+      <created>1664720357052</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1664720357052</updated>
+    </task>
+    <task id="LOCAL-00104" summary="solved 1754 (dijkstra)">
+      <created>1664726263394</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1664726263394</updated>
+    </task>
+    <task id="LOCAL-00105" summary="solve 15683 (brute-force)">
+      <created>1664867529810</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1664867529810</updated>
+    </task>
+    <task id="LOCAL-00106" summary="solve 3055 (bfs)">
+      <created>1664901062436</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1664901062437</updated>
+    </task>
+    <task id="LOCAL-00107" summary="solve 17471 (bfs/brute-force)">
+      <created>1665313475632</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1665313475633</updated>
+    </task>
+    <task id="LOCAL-00108" summary="solve 2636 (bfs)">
+      <created>1665505792593</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1665505792594</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="solve 2529 (brute-force)" />
+    <MESSAGE value="solve 14891 (implementation)" />
+    <MESSAGE value="solved 15661 (brute-force)" />
+    <MESSAGE value="solved 14567 (dp)" />
+    <MESSAGE value="solved 17070 (dp)" />
+    <MESSAGE value="solved 7562 (bfs)" />
+    <MESSAGE value="solved 24891 (brute-force)" />
+    <MESSAGE value="solved 17281 (brute-force)" />
+    <MESSAGE value="solved 15683_2 (brute-force)" />
+    <MESSAGE value="solved new_id (implementation)" />
+    <MESSAGE value="solved menu_renewal (brute-force)" />
+    <MESSAGE value="solved element (implementation)" />
+    <MESSAGE value="solved emoticon (brute-force)" />
+    <MESSAGE value="solved terms (implementation)" />
+    <MESSAGE value="solved binary (implementation)" />
+    <MESSAGE value="solved glass (implementation)" />
+    <MESSAGE value="solved match (brute-force)" />
+    <MESSAGE value="solved 21728 (floyd-warshall)" />
+    <MESSAGE value="Dijkstra Algorithm" />
+    <MESSAGE value="Floyd-warshall Algorithm" />
+    <MESSAGE value="solved 1754 (dijkstra)" />
+    <MESSAGE value="solve 15683 (brute-force)" />
+    <MESSAGE value="solve 3055 (bfs)" />
+    <MESSAGE value="solve 17471 (bfs/brute-force)" />
+    <MESSAGE value="solve 2636 (bfs)" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve 2636 (bfs)" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

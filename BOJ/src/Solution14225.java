@@ -22,25 +22,27 @@ public class Solution14225 {
             num[i] = Integer.parseInt(st.nextToken());
         }
 
-        Arrays.sort(num);
         arr = new int[2000001];
         dfs(0, 0, 0);
+        for(int i = 1; i < arr.length; i++) {
+            if(arr[i] == 0){
+                System.out.println(i);
+                break;
+            }
+        }
 
 
     }
 
     static void dfs(int idx, int depth, int sum) {
-        if(arr[sum] == 0) {
-            arr[sum] = 1;
-        }
+        arr[sum] = 1;
         if(depth == n) {
             return;
         }
-        arr[sum] = 1;
         for(int i = idx; i < n; i++) {
             if(!visited[i]) {
                 visited[i] = true;
-                dfs(idx+1, depth+1, sum + num[i]);
+                dfs(i+1, depth+1, sum+num[i]);
                 visited[i] = false;
             }
         }

@@ -109,13 +109,18 @@ public class Solution17142 {
                 int nx = x + dx[i];
                 int ny = y + dy[i];
                 if(nx < 0 || nx >= n || ny < 0 || ny >= n) continue;
+                // 이미 방문한 빈칸이거나 벽일 경우 컨티뉴
+                // 바이러스일 경우는 일단 통과
                 if(copyMap[nx][ny] == 3 || copyMap[nx][ny] == 1) continue;
+                // 방문했으면 컨티뉴
                 if(visit[nx][ny] > 0) continue;
+                // 빈칸일 경우 빈칸 개수 줄이기
                 if(copyMap[nx][ny] == 0) cnt--;
                 copyMap[nx][ny] = 3;
                 visit[nx][ny] = t+1;
                 q.add(new Virus(nx, ny, t+1));
             }
+            // 빈칸 개수가 없어지면
             if(cnt == 0) break;
         }
 
@@ -123,7 +128,8 @@ public class Solution17142 {
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < n; j++) {
                 if(copyMap[i][j] == 0) return;
-                if(copyMap[i][j] != 2) max = Math.max(visit[i][j], max);
+                // 바이러스가 아닐 경우에서 최대
+                max = Math.max(visit[i][j], max);
             }
         }
 
